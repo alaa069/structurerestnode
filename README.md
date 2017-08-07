@@ -7,31 +7,25 @@ The best way to buils a node js REST API : <br /> <br />
 
 ## tree :
 
- _____ api <br />
-|       |_____ controllers <br />
-|       |           |_____ todoListController.js <br />
-|       | <br />
-|       |_____ models <br />
-|       |           |_____ todoListModel.js <br />
-|       |      <br />
-|       |_____ routes <br />
-|                   |_____ todoListRoutes.js <br />
-|       <br />
-|_____ bin <br />
-|       |_____ www <br />
-| <br />
-|_____ certs     <br />
-|       |_____ server <br />
-|               |_____ my-server.crt.pem <br />
-|               | <br />
-|               |_____ my-server.key.pem <br />
-| <br />
-|_____ config <br />
-|        |_____ config.js <br />
-| <br />
-|_____ package.json <br />
-| <br />
-|_____ server.js <br /> <br />
+.
+├── README.md
+├── api
+│   ├── controllers
+│   │   └── todoListController.js
+│   ├── models
+│   │   └── todoListModel.js
+│   └── routes
+│       └── todoListRoutes.js
+├── bin
+│   └── www
+├── certs
+│   └── server
+│       ├── my-server.crt.pem
+│       └── my-server.key.pem
+├── config
+│   └── config.js
+├── package.json
+└── server.js
 
 
 ## Usage
