@@ -7,6 +7,8 @@ The best way to buils a node js REST API : <br /> <br />
 
 ## tree :
 
+<!-- AUTO-GENERATED-CONTENT:START (DIRTREE:dir=./&depth=1) -->
+```
 .
 ├── README.md
 ├── api
@@ -26,6 +28,8 @@ The best way to buils a node js REST API : <br /> <br />
 │   └── config.js
 ├── package.json
 └── server.js
+````
+<!-- AUTO-GENERATED-CONTENT:END --`
 
 
 ## Usage
