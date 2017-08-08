@@ -28,8 +28,8 @@ The best way to buils a node js REST API : <br /> <br />
 │   └── config.js
 ├── package.json
 └── server.js
-````
-<!-- AUTO-GENERATED-CONTENT:END --`
+```
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 
 ## Usage
