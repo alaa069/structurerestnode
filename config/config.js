@@ -2,20 +2,22 @@ module.exports = {
     development: {
         DataBase: 'mongodb://localhost/Tododb',
         portHTTP: 3000,
-        portHTTPS : 3030
+        portHTTPS : 3030,
+        keySSL : 'certs/server/my-server.key.pem',
+        certSSL : 'certs/server/my-server.crt.pem'
     },
     test: {
-        username: 'postgres',
-        password: '',
-        database: 'foursquare_bot_test',
-        host: process.env.HOST || '127.0.0.1',
-        dialect: 'postgresql',
+        DataBase: 'mongodb://localhost/Tododb',
+        portHTTP: 3000,
+        portHTTPS : 3030,
+        key : 'certs/server/my-server.key.pem',
+        cert : 'certs/server/my-server.crt.pem'
     },
     production: {
-        username: 'postgres',
-        password: '',
-        database: 'foursquare_bot_production',
-        host: process.env.HOST || '127.0.0.1',
-        dialect: 'postgresql',
+        DataBase: 'mongodb://localhost/Tododb',
+        portHTTP: 3000,
+        portHTTPS : 3030,
+        key : 'certs/server/my-server.key.pem',
+        cert : 'certs/server/my-server.crt.pem'
     },
 };

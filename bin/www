@@ -19,8 +19,8 @@ const Config = require('../config/config')[env];
 
 // certeficat test
 var options = {
-  key: fs.readFileSync(path.resolve(__dirname,'../certs/server/my-server.key.pem')),
-  cert: fs.readFileSync(path.resolve(__dirname,'../certs/server/my-server.crt.pem'))
+  key: fs.readFileSync(path.resolve(__dirname,'../' + Config.keySSL)),
+  cert: fs.readFileSync(path.resolve(__dirname,'../' + Config.certSSL))
 };
 
 var port = normalizePort(process.env.PORT || Config.portHTTP);
